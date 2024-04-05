@@ -1,0 +1,30 @@
+.header_container {
+    background-color: #333;
+    color: #fff;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  .header_ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .header_li {
+    margin-right: 20px;
+  }
+  
+  .header_link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .header_link:hover {
+    background-color: #555;
+  }
+  

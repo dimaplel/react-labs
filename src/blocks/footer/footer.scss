@@ -1,0 +1,51 @@
+// footer.scss
+.footer {
+  &.container {
+    padding: 10px;
+    background-color: rgba(240, 240, 240, 0.9);
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .footer_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer_rights {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+
+  .footer_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .footer_links a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    background-size: cover;
+  }
+
+  .footer_tg {
+    background-image: url('../../assets/icon_telegram.png');
+  }
+
+  .footer_insta {
+    background-image: url('../../assets/icon_instagram.png');
+  }
+
+  .footer_github {
+    background-image: url('../../assets/icon_github.png');
+  }
+}
