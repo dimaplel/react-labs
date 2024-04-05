@@ -1,8 +1,7 @@
-// Post.js
 import React, { useState } from 'react';
 import './post.scss';
 
-export const Post = ({ id, title, image, content, date }) => {
+export const Post = ({ title, image, content, date }) => {
   const [showFullContent, setShowFullContent] = useState(false);
 
   return (
@@ -22,7 +21,7 @@ export const Post = ({ id, title, image, content, date }) => {
         )}
         {!showFullContent && content.length > 200 && (
           <button className="show-button" onClick={() => setShowFullContent(true)}>
-            Read more
+            Show more
           </button>
         )}
         <p className="post-date">{date}</p>
